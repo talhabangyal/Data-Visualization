@@ -41,15 +41,15 @@ python download_assignment_data.py
 
 ## Assignment 2
 
-Assignment 2 investigates **visual perception**, cognitive load, and human visual processing constraints (CLO1: *Identify how the human brain processes visual information*). Implemented as five fully executed Jupyter notebooks in `Assignment 2/` adhering to the specifications in `Assignment 2/TASKS.md` and `week2/README.md`.
+Assignment 2 applies principles of visual perception and cognitive processing to five fully executed Jupyter notebooks in `Assignment 2/`.
 
 | Notebook | Topic | Data | Key Concepts & Findings |
 | --- | --- | --- | --- |
-| `task1.ipynb` | Preattentive attributes and visual search | `stimuli_search.csv` | Parallel search (flat slopes: Colour ~0.4 ms/item, Shape ~0.7 ms/item) vs. serial conjunction search (steep slope: ~23.9 ms/item) tested on human observer; Feature Integration Theory; accidental conjunction pitfalls. |
-| `task2.ipynb` | Gestalt principles of grouping | `stimuli_gestalt.csv`, `tips.csv` | Empirical evaluation of Proximity, Similarity, Enclosure, Continuity, Closure, and Connection; perceptual competition proving Connection beats Proximity and Similarity; Proximity manipulation in bar charts; direct labelling vs. legends. |
-| `task3.ipynb` | Cognitive load and the data-ink ratio | `car_crashes.csv`, `tips.csv` | Classification of Intrinsic, Extraneous, and Germane load; data-ink ratio working (~13.1%); 5-panel progressive decluttering; 4 ± 1 regional chunking; over-stripping failure and stopping rule; adding ink to lower cognitive load. |
-| `task4.ipynb` | Channel effectiveness, measured | `channel_trials.csv`, `iris.csv` | Empirical reproduction of Cleveland & McGill hierarchy (Position < Length < Angle < Area < Colour); Stevens' power law area underestimation; application to Iris petal length; single-subject statistical limitations vs. psychophysical laws. |
-| `task5.ipynb` | Capstone: Redesigning for the human visual system | `gapminder.csv` | Full perception audit of 142-country spaghetti chart; single-message redesign highlighting Rwanda's 1994 crisis and recovery; 1 pop-out element; grey context; verbatim reader testing; 300 DPI export (`perception_redesign.png`). |
+| `task1.ipynb` | Preattentive attributes and visual search | `stimuli_search.csv` | Renders colour, shape, and conjunction search trials, measures observer response times, compares search slopes against set size, and explains accidental conjunctions. |
+| `task2.ipynb` | Gestalt principles of grouping | `stimuli_gestalt.csv`, `tips.csv` | Demonstrates Proximity, Similarity, Enclosure, Continuity, Closure, and Connection; records observer grouping responses; and applies proximity to grouped bar charts. |
+| `task3.ipynb` | Cognitive load and the data-ink ratio | `car_crashes.csv`, `tips.csv` | Classifies intrinsic, extraneous, and germane load; calculates data-ink; progressively declutters an overloaded chart; applies regional chunking; and shows when additional reference ink reduces cognitive load. |
+| `task4.ipynb` | Channel effectiveness, measured | `channel_trials.csv`, `iris.csv` | Compares Position, Length, Angle, Area, and Colour through observer trials, ranks channels by mean absolute error, and applies the results to an Iris petal-length chart. |
+| `task5.ipynb` | Redesigning for the human visual system | `gapminder.csv` | Audits a 142-country spaghetti chart, redesigns it around Rwanda's 1994 life-expectancy collapse and recovery, tests the message with an observer, and exports `perception_redesign.png`. |
 
 ### Run Assignment 2
 
